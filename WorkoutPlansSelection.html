@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Workout Selection</title>
+		<script src="PlansSelection.js"></script>
+        <link rel="stylesheet" href="css/WorkoutPlansSelection.css" type="text/css" />
+    </head>
+	<!--<div id="choose"><h1 >Select Workout.</h1></div>-->
+    <body onload = "main()">
+    <form action="SelectedWorkoutPlan.php" method="post" id="chooseForm">
+		<input type="submit" name="strengthTraining" id="strengthTraining" value="Strength Training" /><br>
+		<input type="submit" name="leanTraining" id="leanTraining" value="Lean" /><br>
+        <input type="submit" name="bulkTraining" id="bulkingTraining" value="Bulking" /><br>
+		
+	</form>
+    <form action="celebrityWorkoutSelection.html" method="post" id="chooseForm">
+        <input type="submit" name="celeb" id="celebWorkouts" " value="Celebrity Workouts" /><br>
+    </form>
+	<form action="choose.php" method="post">
+			<input type="submit" name="back" id="back" " value="Back" /><br>
+	</form>
+	
+	
+	<script>
+		function main(){
+
+			document.getElementById("leanTraining").addEventListener("mouseover", displayLeanImage);
+			document.getElementById("leanTraining").addEventListener("mouseout", displayOGBackground);
+			
+			document.getElementById("strengthTraining").addEventListener("mouseover", displayStrengthImage);
+			document.getElementById("strengthTraining").addEventListener("mouseout", displayOGBackground);
+			
+			document.getElementById("bulkingTraining").addEventListener("mouseover", displayBulkImage);
+			document.getElementById("bulkingTraining").addEventListener("mouseout", displayOGBackground);
+			
+			document.getElementById("celebWorkouts").addEventListener("mouseover", displayCelebImage);
+			document.getElementById("celebWorkouts").addEventListener("mouseout", displayOGBackground);
+			
+			function displayLeanImage(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/leanWhiteGuy.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+		
+			}
+			function displayOGBackground(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/blackGuy.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+			}
+			
+			function displayStrengthImage(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/powerliftGirl.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+				document.body.style.backgroundSize="cover";
+			}
+				function displayBulkImage(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/muscularGuy.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+				document.body.style.backgroundSize="cover";
+			}
+			function displayCelebImage(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/therock.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+				document.body.style.backgroundsize="cover";
+			}
+		}
+	</script>
+    </body>
+</html>
