@@ -1,0 +1,70 @@
+body {
+	text-align: center;
+	height:100%;
+	background-image: url('http://localhost/summer2017/389FitnessApp/images/gym.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+#chooseForm {
+	margin-top: -1em;
+}
+
+#settings {
+	background-image: url('http://localhost/summer2017/389FitnessApp/images/gear.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	/*exactly the width and height of the image*/
+	width: 54px;
+	height: 50px;
+	border: 0px;
+	background-color: #fff;
+	cursor: pointer;
+	outline: 0;
+	margin-left: 60em;
+}
+
+#personalTrainer,
+#createWorkout,
+#doWorkout,
+#workoutStats {
+	margin: .3em;
+	color: white;
+	font-family: sans-serif;
+	font-size: 2.2em;
+	width: 10em;
+	height: 2em;
+	background: rgba(0, 0, 0, 0.5);
+	border: solid;
+}
+#personalTrainer:hover,
+#createWorkout:hover,
+#doWorkout:hover
+{
+	/*color:#AAB3B5;*/
+	/*background-image: url('http://localhost/summer2017/389FitnessApp/images/thor.jpg');
+	*/
+	/*transparency effect last parameter*/
+	background:rgba(176, 196, 150, 0.2);
+	
+}	
+
+#built {
+	
+}
+
+
+
+#home {
+	text-align: left;
+	background: url('http://localhost/summer2017/389FitnessApp/images/logout.jpg');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	width: 182px;
+	height: 51px;
+	border: 0px;
+	background-color: #fff;
+	cursor: pointer;
+	outline: 0;
+
+}

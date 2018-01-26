@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Workout</title>
+        <link rel="stylesheet" href="css/celebSelection.css" type="text/css" />
+    </head>
+	<!--<div id="choose"><h1 >Select Workout.</h1></div>-->
+    <body onload = "main()">
+		<div id="placement">
+        <form action="SelectedWorkoutPlan.php" method="post">
+            <input type="submit" name="thor" id="thor" value="Thor" /><br>
+            <input type="submit" name="gerald" id="gerald" value="Gerard Butler 300" /><br>
+            <input type="submit" name="terryCrews" id="terryCrews" value="Terry Crews Expendables" /><br>
+            <input type="submit" name="arnold" id="arnold"  value="Prime Arnold Schwarzenegger" /><br>
+        </form>
+		<form action="WorkoutPlansSelection.html" method="post">
+			<input type="submit" name="back" id="back" " value="Back" /><br>
+		</form>
+		</div>
+	</body>
+	<script>
+		function main(){
+
+			document.getElementById("thor").addEventListener("mouseover", displayThorImage);
+			document.getElementById("thor").addEventListener("mouseout", displayOGBackground);
+			
+			document.getElementById("gerald").addEventListener("mouseover", display300Image);
+			document.getElementById("gerald").addEventListener("mouseout", displayOGBackground);
+			
+			document.getElementById("terryCrews").addEventListener("mouseover", displayTerryImage);
+			document.getElementById("terryCrews").addEventListener("mouseout", displayOGBackground);
+			
+			document.getElementById("arnold").addEventListener("mouseover", displayArnoldImage);
+			document.getElementById("arnold").addEventListener("mouseout", displayOGBackground);
+			
+			function displayThorImage(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/thor_2.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+                document.style.backgroundSize="cover";
+		
+			}
+			function displayOGBackground(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/blackGuy.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+			}
+			
+			function display300Image(){
+                document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/300_2.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+				document.body.style.backgroundSize="cover";
+			}
+				function displayTerryImage(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/terry.jpg)';
+				document.body.style.backgroundRepeat="no-repeat";
+				document.body.style.backgroundSize="cover";
+			}
+			function displayArnoldImage(){
+				document.body.style.backgroundImage = 'url(http://localhost/summer2017/389FitnessApp/images/arnoldBest.jpeg)';
+				document.body.style.backgroundRepeat="no-repeat";
+				document.body.style.backgroundsize="cover";
+			}
+		}
+	</script>
+    </body>
+</html>

@@ -1,0 +1,205 @@
+body{
+    
+    text-align:center;
+     /*background-color:#151515;*/
+     background-color: black;
+}
+
+span{
+   margin-left:2em;
+}
+#title{
+    text-align:left;
+    font-family: sans-serif;
+	font-size:2.1em;
+    color:white;
+    margin-left:1em;
+}
+#listChoose{
+    text-align:left;
+    font-family: sans-serif;
+	font-size: 2em;
+    color:white; 
+    
+}
+#squatPic{
+    
+    display:none;
+    
+}
+
+#splitsquat:hover + #splitPic{
+     display:block;
+    /*height:150px;*/
+}
+#squat:hover + #squatPic{
+    display:block;
+   /* height:150px;*/
+}
+#press:hover + #lpressPic{
+     display:block;
+   height:200px;
+   
+}
+input[type="checkbox"]{
+  width: 30px; 
+  height: 30px; 
+}
+#backButton{
+   
+	margin-left: 2em;
+	color: white;
+	font-family: sans-serif;
+	font-size: 1em;
+	width: 4em;
+	height: 2em;
+	background: rgba(0, 0, 0, 0.5);
+	border: solid;
+	position:relative;
+}
+#backButton:hover{
+      background:rgba(176, 196, 150, 0.2);
+}
+#deadsPic,#splitPic,#squatPic,#lungePic,#lPressPic,#preacherPic,#hammerpic,
+#reversePic, #dipsPic,#skullPic,#tricablePic,#dbtriPic,#dbshouldPic,#ohpPic,#shrugsPic,#raisesPic,
+#ohpMachPic,#borPic,#cabRowPic,#pullupPic,#latsPic,#dbrowPic,#benchPic,#cabFlysPic,
+#dbflatPic,#inclineflysPic,#dbpressPic,#cabCrunchPic,#lraisePic,#wheelPic,#russPic,#biPic{
+    margin-left:2em;
+    display:none;
+}
+
+#cablecrunch:hover + #cabCrunchPic{
+    display:block;
+   height:200px;
+}
+
+#dbpress:hover + #dbpressPic{
+    display:block;
+   height:200px;
+}
+#bor:hover + #borPic{
+    display:block;
+   height:200px;
+}
+#dbraise:hover + #raisesPic{
+    display:block;
+   height:200px;
+}
+#ohpmach:hover + #ohpMachPic{
+    display:block;
+   height:200px;
+}
+#dbshrugs:hover + #shrugsPic{
+    display:block;
+   height:200px;
+}
+#ohp:hover + #ohpPic{
+    display:block;
+   height:200px;
+}
+#dbshould:hover + #dbshouldPic{
+    display:block;
+   height:200px;
+}
+#dbrow:hover + #dbrowPic{
+    display:block;
+   height:200px;
+}
+#lats:hover + #latsPic{
+    display:block;
+   height:200px;
+}
+#pullup:hover + #pullupPic{
+    display:block;
+   height:200px;
+}
+#cablerow:hover + #cabRowPic{
+    display:block;
+   height:200px;
+}
+#legraise:hover + #lraisePic{
+    display:block;
+   height:200px;
+}
+#abwheel:hover + #wheelPic{
+    display:block;
+   height:200px;
+}
+#russiantwist:hover + #russPic{
+    display:block;
+   height:200px;
+}
+#bicrunch:hover + #biPic{
+    display:block;
+   height:200px;
+}
+#bench:hover + #benchPic{
+    display:block;
+   height:200px;
+}
+
+#cableflys:hover + #cabFlysPic{
+    display:block;
+   height:200px;
+}
+#dbflat:hover + #dbflatPic{
+    display:block;
+   height:200px;
+}
+#inclineflys:hover + #inclineflysPic{
+    display:block;
+   height:200px;
+}
+
+#dbtri:hover + #dbtriPic{
+    display:block;
+   height:200px;
+}
+#tricable:hover + #tricablePic{
+    display:block;
+   height:200px;
+}
+#preacher:hover + #preacherPic{
+    display:block;
+   height:200px;
+}
+#hammer:hover + #hammerpic{
+    display:block;
+   height:200px;
+}
+#reverse:hover + #reversePic  {
+    display:block;
+   height:200px;
+}
+#reverse:hover + #reversePic  {
+    display:block;
+   height:200px;
+}
+#dips:hover + #dipsPic{
+     display:block;
+   height:200px;
+}
+#skull:hover + #skullPic{
+     display:block;
+   height:200px;
+}
+#dl:hover + #deadsPic{
+    display:block;
+}
+#lunge:hover + #lungePic{
+    display:block;
+   height:200px;
+   
+}
+
+
+#imgHolder{
+    text-align: center;
+    border:solid;
+    border-color: #151515;
+}
+#preview{
+ border:solid;
+ border-color: #151515;
+background:
+}
